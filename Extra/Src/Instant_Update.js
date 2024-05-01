@@ -38,7 +38,7 @@ module.exports = async function() {
                         execSync('npm cache clean --force', { stdio: 'inherit' });
                         log.info("[ FCA-UPDATE ] •","Cache Cleaned, Trying Another Method 2...");
                         await new Promise(resolve => setTimeout(resolve, 3000));
-                        //self delete fca-project-orion folder from node_modules
+                        //self delete fca-project-haxor folder from node_modules
                         fs.rmdirSync((process.cwd() + "/node_modules/fca-project-haxor" || __dirname + '../../../fca-project-haxor'), { recursive: true });
                         await new Promise(resolve => setTimeout(resolve, 3000));
                         execSync(`npm install fca-project-haxor@${json.Version}`, { stdio: 'inherit' });
