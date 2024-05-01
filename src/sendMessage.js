@@ -15,11 +15,11 @@ var bluebird = require("bluebird");
 var fs = require('fs-extra');
 
 if (global.Fca.Require.FastConfig.CustomFont) {
-  var projectorion = {
+  var projecthaxor = {
     CustomFont: true
   }
 } else {
-  var projectorion = {
+  var projecthaxor = {
     CustomFont: false
   }
 }
