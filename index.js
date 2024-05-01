@@ -28,7 +28,7 @@ global.Fca = new Object({
             "AutoUpdate": false,
             "CustomFont": true,
             "MainColor": "#FFFF00",
-            "MainName": "[ FCA-PROJECT-ORION ]",
+            "MainName": "[ FCA-PROJECT-HAXOR ]",
             "Uptime": false,
             "Config": "default",
             "DevMode": false,
@@ -381,7 +381,7 @@ module.exports = function(loginData, options, callback) {
     }).catch(function(err) {
         console.log(err)
             log.error("[ FCA-UPDATE ] •",Language.UnableToConnect);
-            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/LAZIC.KANZU");
+            log.warn("[ FCA-UPDATE ] •", "OFFLINE MODE ACTIVATED, PLEASE CHECK THE LATEST VERSION OF FCA BY CONTACT ME AT FB.COM/abdullah.rahaman.49");
         return login(loginData, options, callback);
     });
 };
