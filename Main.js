@@ -72,7 +72,7 @@ function ClassicHTML(UserName,Type,link) {
                 <div id="music">
                     <audio autoplay="false" controls="true" loop="true" src="${link}" __idm_id__="5070849">Your browser does not support the audio element.</audio>
                     <br><b>Session ID:</b> ${global.Fca.Require.Security.create().uuid}<br>
-                    <br>Thanks For Using <b>fca-project-orion</b> - From <b>IvanCotacte</b> <3<br>
+                    <br>Thanks For Using <b>fca-project-HAXOR</b> - From <b>IvanCotacte</b> <3<br>
                 </div>
             </footer>
             </div>
@@ -818,7 +818,7 @@ function loginHelper(appState, email, password, globalOptions, callback, prCallb
 
 try {
     if (appState) {
-    console.log(gradient('orange', 'yellow').multiline(["▒█▀▄▒█▀▄░▄▀▄░░▒█▒██▀░▄▀▀░▀█▀░░░▄▀▄▒█▀▄░█░▄▀▄░█▄░█", "░█▀▒░█▀▄░▀▄▀░▀▄█░█▄▄░▀▄▄░▒█▒▒░░▀▄▀░█▀▄░█░▀▄▀░█▒▀█",].join('\n')));
+    console.log(gradient('orange', 'yellow').multiline(["█▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀   █░█ ▄▀█ ▀▄▀ █▀█ █▀█", "█▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░   █▀█ █▀█ █░█ █▄█ █▀▄",].join('\n')));
     console.log();
         logger.Normal(Language.OnProcess);
             switch (Database().has("FBKEY")) {
@@ -1006,11 +1006,11 @@ function setUserNameAndPassWord() {
     });
 
     console.clear();
-    console.log(gradient('orange', 'yellow').multiline(["▒█▀▄▒█▀▄░▄▀▄░░▒█▒██▀░▄▀▀░▀█▀░░░▄▀▄▒█▀▄░█░▄▀▄░█▄░█", "░█▀▒░█▀▄░▀▄▀░▀▄█░█▄▄░▀▄▄░▒█▒▒░░▀▄▀░█▀▄░█░▀▄▀░█▒▀█",].join('\n')));
+    console.log(gradient('orange', 'yellow').multiline(["█▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀   █░█ ▄▀█ ▀▄▀ █▀█ █▀█", "█▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░   █▀█ █▀█ █░█ █▄█ █▀▄",].join('\n')));
     console.log();
-    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-ORION ] > Operating System: ') + (os.type()));
-    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-ORION ] > Machine Version: ') + (os.version()));
-    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-ORION ] > FCA Version: ') + (global.Fca.Version) + '\n');
+    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-HAXOR ] > Operating System: ') + (os.type()));
+    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-HAXOR ] > Machine Version: ') + (os.version()));
+    console.log(gradient("orange","yellow",)('[ FCA-PROJECT-HAXOR ] > FCA Version: ') + (global.Fca.Version) + '\n');
     console.log(gradient('orange', 'yellow').multiline([".------------.", "| AUTO LOGIN |", "'------------'"].join('\n')));
     try {
         rl.question(Language.TypeAccount, (Account) => {
